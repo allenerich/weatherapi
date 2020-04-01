@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenWeatherMap Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the weather</p>
+    </div> 
+    <div>
+        <div class="input">
+            <input type="text" placeholder="Enter the city" class="input_text">
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+
+            <p class="temp"></p>
+            <p class="clouds"></p>
+            <p class="desc"></p>
+            <p class="weatherIcon"></p>
+
+            <div id="today" class="mt-3"></div>
+        </div>
+        <!-- <div class="weatherIcon"><img src="http://openweathermap.org/img/wn/10d@2x.png"></div> 
+       <img class='weatherIcon' src="http://openweathermap.org/img/wn/10d@2x.png"> -->
+
+
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
